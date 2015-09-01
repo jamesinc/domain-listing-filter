@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         domain.com.au junk listing filter
-// @namespace    http://github.com/jamesinc/
+// @namespace    https://github.com/jamesinc/domain-listing-filter
 // @version      0.3
 // @description  This extension filters 'application received' and 'deposit taken' style listings from summary view on the Domain website.
 // @author       James Ducker
