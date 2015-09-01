@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         domain.com.au junk listing filter
 // @namespace    http://github.com/jamesinc/
-// @version      0.2
+// @version      0.3
 // @description  This extension filters 'application received' and 'deposit taken' style listings from summary view on the Domain website.
 // @author       James Ducker
 // @match        https://tampermonkey.net/index.php?version=3.11&ext=dhdg&updated=true
@@ -10,8 +10,8 @@
 // @include      https://www.domain.com.au/search/rent/*
 // ==/UserScript==
 
-var isDickheadTitle=function ( title ) {
-	var titles = [ "application received", "deposit taken" ];
+var isDickheadTitle = function ( title ) {
+	var titles = [ "application received", "deposit taken", "leased", "application approved", "application recieved" ];
 	
 	for ( var i = 0; i < titles.length; i++ )
 		if (title.toLowerCase().indexOf(titles[i]) !== -1 ) return true;
