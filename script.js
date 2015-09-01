@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         domain.com.au junk listing filter
 // @namespace    http://github.com/jamesinc/
-// @version      0.1
+// @version      0.2
 // @description  This extension filters 'application received' and 'deposit taken' style listings from summary view on the Domain website.
 // @author       James Ducker
 // @match        https://tampermonkey.net/index.php?version=3.11&ext=dhdg&updated=true
