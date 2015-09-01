@@ -26,7 +26,7 @@ $(".description__title, .description__main, .pricepoint").each(function( ) {
 		parent = el.parents("li.strap");
 		
 		parent.empty().css({
-			"line-height": 50,
+			"line-height": "50px",
 			background: "#999",
 			color: "white",
 			"text-align": "center"
